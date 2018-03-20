@@ -6,8 +6,12 @@ certi-Bi(<a href="https://certibi.herokuapp.com/">see here</a>)<br>
 Prerequisits
 
  -Install <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en">metamask</a>.<br><br>
+Instructions
+ - click on <b>choose file<b> to select a file  to be uploaded to IPFS.
+ - click on <b>send it<b>.
+ - click on <b>generate transaction reciept<b> to generate reciept.<br><br>
 Refereneces<br>
-
+ 
  -Etherium(<a href="http://www.ethdocs.org/en/latest/">http://www.ethdocs.org/en/latest/</a>)<br>
  -IPFS (<a href="https://ipfs.io/">https://ipfs.io/</a>)<br>
  -dApp (<a href="https://blockgeeks.com/guides/dapps/">https://blockgeeks.com/guides/dapps/</a>)
