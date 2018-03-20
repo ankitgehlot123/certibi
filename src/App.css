@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.receipt{
+	background-color: #76e24f !important;
+}
+.receipt:hover{
+	background-color: #76e24f !important;
+	border-color:#49c61b !important; 
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  font-family: 'Lato', sans-serif italic;
+  color: white;
+}
+h1{
+	float: left;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+/*some css I added*/
+input[type="file"] {
+    display: inline-block;
+}
+
+.table {
+      max-width: 90%;
+      margin: 10px;
+      border-radius:5px;
+      border: 2px solid #299bf2; 
+}
+.table th {
+    text-align: center;
+}
+tr{
+      border: 2px solid #299bf2; 
+}
+ .table-bordered > tbody > tr > td{
+ 	border: 2px solid #299bf2; 
+}
+/*end of my css*/
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
